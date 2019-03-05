@@ -1,6 +1,12 @@
 {
-  "name": "myturn",
+  "name": "myturn-web",
+  "author": "Jeferson Machado <jeferson.m159@gmail.com> (http://devcreative.com.br)",
+  "contributors": [
+    "Felipinho PsTS <lipezinho@gmail.com> (http://devcreative.com.br)",
+    "Douguinha <doug@gmail.com> (http://devcreative.com.br)"
+  ],
   "version": "0.1.0",
+  "description": "Uma breve descrição aqui",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
