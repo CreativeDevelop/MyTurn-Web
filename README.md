@@ -1,4 +1,4 @@
-# myturn
+# MyTurn-Web
 
 ## Project setup
 ```
@@ -32,3 +32,4 @@ npm run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+#### [Framework Vuetify](https://vuetifyjs.com/pt-BR/getting-started)
