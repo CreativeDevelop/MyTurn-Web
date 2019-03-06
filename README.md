@@ -38,6 +38,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 [Conheça o Vuetify Pt1](https://vuejs-brasil.com.br/conheca-o-vuetify-tutorial-dicas-parte-1/)
 
-[Conheça o Vuetify Pt1](https://vuejs-brasil.com.br/conheca-o-vuetify-tutorial-dicas-parte-2/)
+[Conheça o Vuetify Pt2](https://vuejs-brasil.com.br/conheca-o-vuetify-tutorial-dicas-parte-2/)
 
-[Conheça o Vuetify Pt1](https://vuejs-brasil.com.br/conheca-o-vuetify-3/)
+[Conheça o Vuetify Pt3](https://vuejs-brasil.com.br/conheca-o-vuetify-3/)
