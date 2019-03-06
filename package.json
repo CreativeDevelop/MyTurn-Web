@@ -1,13 +1,9 @@
 {
   "name": "myturn-web",
-  "author": "Jeferson Machado <jeferson.m159@gmail.com> (http://devcreative.com.br)",
-  "contributors": [
-    "Felipinho PsTS <lipezinho@gmail.com> (http://devcreative.com.br)",
-    "Douguinha <doug@gmail.com> (http://devcreative.com.br)"
-  ],
   "version": "0.1.0",
-  "description": "Uma breve descrição aqui",
   "private": true,
+  "description": "Uma breve descrição aqui",
+  "author": "Jeferson Machado <jeferson.m159@gmail.com> (http://devcreative.com.br)",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -16,11 +12,13 @@
   },
   "dependencies": {
     "vue": "^2.6.6",
+    "vue-i18n": "^8.8.2",
     "vue-router": "^3.0.1",
     "vuetify": "^1.5.5",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
+    "@kazupon/vue-i18n-loader": "^0.3.0",
     "@vue/cli-plugin-babel": "^3.4.0",
     "@vue/cli-plugin-eslint": "^3.4.0",
     "@vue/cli-plugin-unit-jest": "^3.4.0",
@@ -33,8 +31,19 @@
     "eslint-plugin-vue": "^5.0.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
+    "vue-cli-plugin-i18n": "^0.5.2",
     "vue-cli-plugin-vuetify": "^0.5.0",
     "vue-template-compiler": "^2.5.21",
     "vuetify-loader": "^1.0.5"
-  }
+  },
+  "jest": {
+    "transform": {
+      "^.\\.vue$": "vue-jest",
+      "^.\\.js$": "babel-jest"
+    }
+  },
+  "contributors": [
+    "Felipinho PsTS <lipezinho@gmail.com> (http://devcreative.com.br)",
+    "Douguinha <doug@gmail.com> (http://devcreative.com.br)"
+  ]
 }
