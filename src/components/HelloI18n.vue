@@ -15,6 +15,9 @@ export default {
 {
   "en": {
     "hello": "Hello i18n in SFC!"
+  },
+  "pt": {
+  "hello": "Olá caros amigos!"
   }
 }
 </i18n>
