@@ -2,6 +2,7 @@
   <div id="teste">
       <h1>TESTE</h1>
     <p>{{ $t('hello') }}</p>
+    <p>{{$t('play')}}</p>
   </div>
 </template>
 
@@ -16,8 +17,8 @@ export default {
   "en": {
     "hello": "Hello i18n in SFC!"
   },
-  "pt": {
-  "hello": "Olá caros amigos!"
+  "pt-br": {
+    "hello": "Olá caros amigos!"
   }
 }
 </i18n>
